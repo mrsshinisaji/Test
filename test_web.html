@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSite | Learn Anything</title>
+    <style>
+        /* CSS Reset & Basic Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { line-height: 1.6; color: #333; background: #f4f4f4; }
+
+        /* Navigation */
+        nav { background: #2c3e50; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 20px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+
+        /* Hero Section */
+        header { background: #3498db; color: white; padding: 4rem 5%; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+
+        /* Content Sections */
+        .container { padding: 2rem 5%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        
+        /* Footer */
+        footer { text-align: center; padding: 2rem; background: #2c3e50; color: white; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>EduSite</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Unlock Your Potential</h1>
+        <p>High-quality online courses to help you master new skills.</p>
+    </header>
+
+    <div class="container">
+        <h2>Featured Courses</h2>
+        <br>
+        <div class="grid">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Master HTML, CSS, and JavaScript to build modern websites.</p>
+            </div>
+            <div class="card">
+                <h3>Data Science</h3>
+                <p>Learn to analyze data and build predictive models.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Marketing</h3>
+                <p>Understand SEO, social media, and content strategies.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EduSite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
